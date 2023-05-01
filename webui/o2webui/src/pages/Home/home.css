@@ -1,0 +1,196 @@
+body {
+    height: 125vh;
+    margin-top: 80px;
+    padding: 30px;
+    background-size: contain;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 15px;
+    height: 80px;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: auto;
+    cursor: pointer;
+}
+
+header li a {
+    color: #024411;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-highlight b {
+    color: #ACE007;
+}
+
+.center-align {
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+} 
+
+.profile-avatar-minified {
+    border: 2px solid #024411;
+    height: 38px;
+    width: 38px;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.search-box-div {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#search-box {
+    width: 400px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid#024411;
+    padding: 0px 30px;
+}
+
+.search-box-suggestion {
+    width: 380px;
+    height: auto;
+    min-height: 30px;
+    border-radius: 30px;
+    border: 2px solid#024411;
+    padding: 0px 30px;
+    background-color: #fff;
+    text-align: left !important;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.search-box-suggestion b {
+    color: #ACE007;
+}
+
+#homepage-logo {
+    width: 400px;
+    height: 200px;
+    background: url(https://thumbs.dreamstime.com/b/plateau-scenery-landscape-reflection-tibet-beautiful-water-34858251.jpg) no-repeat;
+    margin: 30px;
+    background-size: cover;
+}
+
+#profile-logo {
+    width: 130px;
+    height: 165px;
+    margin: 30px;
+    background: url(https://thumbs.dreamstime.com/b/plateau-scenery-landscape-reflection-tibet-beautiful-water-34858251.jpg) no-repeat;
+    background-size: contain;
+}
+
+#community-logo {
+    width: 130px;
+    height: 165px;
+    margin: 30px;
+    background: url(https://thumbs.dreamstime.com/b/plateau-scenery-landscape-reflection-tibet-beautiful-water-34858251.jpg) no-repeat;
+    background-size: contain;
+}
+
+#shop-logo {
+    width: 130px;
+    height: 165px;
+    margin: 30px;
+    background: url(https://thumbs.dreamstime.com/b/plateau-scenery-landscape-reflection-tibet-beautiful-water-34858251.jpg) no-repeat;
+    background-size: contain;
+}
+
+#courses-logo {
+    width: 130px;
+    height: 165px;
+    margin: 30px;
+    background: url(https://thumbs.dreamstime.com/b/plateau-scenery-landscape-reflection-tibet-beautiful-water-34858251.jpg) no-repeat;
+    background-size: contain;
+}
+
+#blogs-logo {
+    width: 130px;
+    height: 165px;
+    margin: 30px;
+    background: url(https://thumbs.dreamstime.com/b/plateau-scenery-landscape-reflection-tibet-beautiful-water-34858251.jpg) no-repeat;
+    background-size: contain;
+}
+
+#info-logo {
+    width: 130px;
+    height: 165px;
+    margin: 30px;
+    background: url(https://thumbs.dreamstime.com/b/plateau-scenery-landscape-reflection-tibet-beautiful-water-34858251.jpg) no-repeat;
+    background-size: contain;
+}
+
+.input-icons i {
+    position: absolute;
+    color: #024411;
+}
+  
+.input-icons {
+    /*width: 100%;*/
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.search-box-suggestion i {
+    color: #024411;
+}
+.category {
+    color: blue!important;
+    text-decoration: underline;
+}
+
+.shopping {
+    color: #024411;
+    margin: 10px 10px 0px 10px;
+}
+
+.sign-in {
+    color: #024411;
+    margin: 10px 10px 0px 10px;
+}
+
+
+  .menu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 3px 0;
+  }

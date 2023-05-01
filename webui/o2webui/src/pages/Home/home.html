@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>O24ALL - Home</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./home.css"></link>
+        <!-- SCRIPTS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="./home-action.js"></script>
+        <script src="./home.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <div id="profile">
+                        <a href="#">
+                            <img class="profile-avatar-minified" src="https://webstockreview.net/images/smiley-face-clip-art-human-face-22.png" />
+                        </a>
+                    </div>
+                    <li id="community">
+                        <a href="http://localhost:3000/community"> Community </a>
+                    </li>
+                    <li id="courses">
+                        <a href="http://localhost:3000/courses"> Courses </a>
+                    </li>
+                    <li id="blogs">
+                        <a href="http://localhost:3000/blogs"> Blogs </a>
+                    </li>
+                    <div id="info" onClick={menuHandler()} style="display: flex; flex-direction: column; margin-right: 20px;">
+                        <div class="menu"></div>
+                        <div class="menu"></div>
+                        <div class="menu"></div>
+                        
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <div class="center-align"><div id="homepage-logo"></div></div>
+        <div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+            <div id="profile-logo"></div>
+            <div id="community-logo"></div>
+            <div id="shop-logo"></div>
+            <div id="courses-logo"></div>
+            <div id="blogs-logo"></div>
+            <div id="info-logo"></div>
+        </div>
+        <div class="search-box-div">
+            <div class="input-icons">
+                <i class="fa fa-search icon"></i>
+                <input type="text" id="search-box" oninput="searchInputHandler()"/>
+            </div>
+        </div>
+        <div class="center-align">
+            <div id="shop-search"></div>
+        </div>
+        <div class="center-align">
+            <div id="community-search"></div>
+        </div>
+        <div class="center-align">
+            <div id="blogs-search"></div>
+        </div>
+        <div class="center-align">
+            <div id="info-search"></div>
+        </div>
+        <div class="center-align">
+            <button id="shopping-button" class="shopping" onClick={shoppingHandler()}>Buy Plants</button>
+        </div>
+        <div class="center-align">
+            <button id="sign-in-button" class="sign-in" onClick={signinHandler()}>Sign In / Sign Up</button>
+        </div>
+    </body>
+</html>
